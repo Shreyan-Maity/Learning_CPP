@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+     "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Current File",
+      "type": "shell",
+      "windows": {
+        "command": "cmd",
+        "args": [
+          "/c",
+          "if \"${fileExtname}\"==\".cpp\" (g++ \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\") else if \"${fileExtname}\"==\".c\" (gcc \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\") else if \"${fileExtname}\"==\".py\" (python \"${file}\") else if \"${fileExtname}\"==\".java\" (javac \"${file}\" && java -cp \"${fileDirname}\" \"${fileBasenameNoExtension}\")"
+        ]
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "problemMatcher": []
+    }
+  ]
+  
+}
