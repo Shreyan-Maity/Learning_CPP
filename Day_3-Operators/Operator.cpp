@@ -32,7 +32,7 @@ int main(){
     cin >> a;
     cout << "Enter the second number : ";
     cin >> b;
-    Operation fun;
+    Operation fun; // thi is my object
     if(func == "ADD" || func == "add" ){
         int c = fun.add(a,b);
         cout << "The Addition of " << a << " & " << b <<" is = " << c << endl;
@@ -45,9 +45,12 @@ int main(){
         int c = fun.mul(a,b);
         cout << "The Multlipication of " << a << " & " << b <<" is = " << c << endl;
     }
-    else {
+    else if(func == "DIV" || func == "div" ){
         int c = fun.div(a,b);
         cout << "The Division of " << a << " & " << b <<" is = " << c << endl;
+    }
+    else{
+        cout << "Incorrect Entry!!! \nYour choice not entered in correct format.";
     }
     // cout << c;
     return 0;
