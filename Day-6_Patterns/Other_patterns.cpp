@@ -1,0 +1,99 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void userInput(int &ro){
+    cout << "Enter the number of rows you want to print : ";
+    cin >> ro;
+    // cout << "Enter the number of columns you want to print : ";
+    // cin >> co;
+    return ;
+}
+
+void patternStar(int s){
+        int star=1,space=s*2-2;
+    for(int i=0;i<s;i++){
+        for(int j=0;j<star;j++){
+            cout << "*";
+        }
+        for(int j=0;j<space;j++){
+            cout <<" ";
+        }
+        for(int j=0;j<star;j++){
+            cout << "*";
+        }
+        cout << endl;
+        if(i<s){
+            star ++;
+            space -=2;
+        }
+    }
+    return;
+}
+
+void patternNumber(int r){
+    int star=1,space=r*2-2;
+    for(int i=1;i<=r;i++){
+        for(int j=1;j<=star;j++){
+            cout <<j;
+        }
+        for(int j=1;j<=space;j++){
+            cout <<" ";
+        }
+        for(int j=star;j>0;j--){
+            cout <<j;
+        }
+        cout << endl;
+        if(i<r){
+            star ++;
+            space -=2;
+        }
+    }
+    return;
+}
+
+void diamond(int r){
+    int star=1,space=r/2;
+    for(int i=0;i<r;i++){
+        for(int j=0;j<space;j++) cout << " ";
+        for(int j=0;j<star;j++) cout << "*";
+        cout << endl;
+        if(i<r/2){
+            star +=2;
+            space -=1;
+        }
+        else{
+            star -=2;
+            space +=1;
+        }
+    }
+    return;
+}
+
+void hollowDiamon(int s){
+    int star=s/2,space=1;
+    for(int i=0;i<s;i++){
+        for(int j=0;j<star;j++) cout << "*";
+        for(int j=0;j<space;j++) cout <<" ";
+        for(int j=0;j<star; j++) cout << "*";
+        cout <<endl;
+        if(i<s/2){
+            star -=1;
+            space +=2;
+        }
+        else{
+            star +=1;
+            space -=2;
+        }
+    }
+    return;
+}
+
+int main(){
+    int row;
+    userInput(row);
+    patternStar(row);
+    patternNumber(row);
+    diamond(row);
+    hollowDiamon(row);
+    return 0;
+}
