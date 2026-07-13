@@ -18,6 +18,11 @@ void inputAndCalculate(){
         cin >> arr[i];
         //cout <<endl;
     }
+    cout << "The array is : {";
+    for(int i=0;i<n;i++){
+        cout << arr[i] << " "; 
+    }
+    cout << "}" << endl;
     int j = 0;
     for(int i=0;i<n;i++){
         j = j+arr[i];
