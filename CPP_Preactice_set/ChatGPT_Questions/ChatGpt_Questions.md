@@ -20,8 +20,8 @@ Here's a structured **100-question C++ practice set**, arranged from beginner to
 16. ~~Calculate simple interest.~~
 17. ~~Calculate compound interest.~~
 18. ~~Find the average of three numbers.~~
-19. ~~Convert days into years, months, and days.
-20. ~~Find the ASCII value of a character.
+19. ~~Convert days into years, months, and days.~~
+20. ~~Find the ASCII value of a character.~~
 
 ## Level 2: Decision Making (21–35)
 
