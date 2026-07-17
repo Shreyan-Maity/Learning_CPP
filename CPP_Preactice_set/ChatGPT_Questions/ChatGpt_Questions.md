@@ -12,14 +12,14 @@ Here's a structured **100-question C++ practice set**, arranged from beginner to
 8. ~~Swap two numbers using a third variable.~~
 9. ~~Swap two numbers without using a third variable.~~
 10. ~~Convert Celsius to Fahrenheit.~~
-11. ~~Convert Fahrenheit to Celsius.
-12. ~~Find the square of a number.
-13. ~~Find the cube of a number.
-14. ~~Calculate the area of a rectangle.
-15. ~~Calculate the area of a circle.
-16. ~~Calculate simple interest.
-17. ~~Calculate compound interest.
-18. ~~Find the average of three numbers.
+11. ~~Convert Fahrenheit to Celsius.~~
+12. ~~Find the square of a number.~~
+13. ~~Find the cube of a number.~~
+14. ~~Calculate the area of a rectangle.~~
+15. ~~Calculate the area of a circle.~~
+16. ~~Calculate simple interest.~~
+17. ~~Calculate compound interest.~~
+18. ~~Find the average of three numbers.~~
 19. ~~Convert days into years, months, and days.
 20. ~~Find the ASCII value of a character.
 
