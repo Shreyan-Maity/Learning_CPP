@@ -1,6 +1,6 @@
 Here's a structured **100-question C++ practice set**, arranged from beginner to advanced.
 
-## Level 1: Basics (1–20)
+## Level 1: ~~Basics (1–20)~~
 
 1. ~~Print "Hello, World!"~~
 2. ~~Print your name, age, and city.~~
@@ -25,8 +25,8 @@ Here's a structured **100-question C++ practice set**, arranged from beginner to
 
 ## Level 2: Decision Making (21–35)
 
-21. Check if a number is even or odd.
-22. Check whether a number is positive, negative, or zero.
+21. ~~Check if a number is even or odd.~~
+22. ~~Check whether a number is positive, negative, or zero.~~
 23. Find the largest of two numbers.
 24. Find the largest of three numbers.
 25. Check whether a year is a leap year.
