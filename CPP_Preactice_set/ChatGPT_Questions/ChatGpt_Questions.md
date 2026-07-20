@@ -27,12 +27,12 @@ Here's a structured **100-question C++ practice set**, arranged from beginner to
 
 21. ~~Check if a number is even or odd.~~
 22. ~~Check whether a number is positive, negative, or zero.~~
-23. Find the largest of two numbers.
-24. Find the largest of three numbers.
+23. ~~Find the largest of two numbers.~~
+24. ~~Find the largest of three numbers.~~
 25. Check whether a year is a leap year.
-26. Check if a character is a vowel or consonant.
-27. Check whether a character is uppercase or lowercase.
-28. Find the absolute value of a number.
+26. ~~Check if a character is a vowel or consonant.~~
+27. ~~Check whether a character is uppercase or lowercase.~~
+28. ~~Find the absolute value of a number.~~
 29. Check whether a number is divisible by 5 and 11.
 30. Calculate electricity bill based on slabs.
 31. Calculate income tax based on slabs.
