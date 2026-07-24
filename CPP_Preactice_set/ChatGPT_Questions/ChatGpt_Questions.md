@@ -43,10 +43,10 @@ Here's a structured **100-question C++ practice set**, arranged from beginner to
 
 ## Level 3: Loops (36–55)
 
-36. Print numbers from 1 to 100.
-37. Print numbers from 100 to 1.
-38. Print even numbers from 1 to 100.
-39. Print odd numbers from 1 to 100.
+36. ~~Print numbers from 1 to 100.~~
+37. ~~Print numbers from 100 to 1.~~
+38. ~~Print even numbers from 1 to 100.~~
+39. ~~Print odd numbers from 1 to 100.~~
 40. Find the sum of the first N natural numbers.
 41. Find the factorial of a number.
 42. Print the multiplication table of a number.
