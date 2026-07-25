@@ -47,10 +47,10 @@ Here's a structured **100-question C++ practice set**, arranged from beginner to
 37. ~~Print numbers from 100 to 1.~~
 38. ~~Print even numbers from 1 to 100.~~
 39. ~~Print odd numbers from 1 to 100.~~
-40. Find the sum of the first N natural numbers.
-41. Find the factorial of a number.
-42. Print the multiplication table of a number.
-43. Reverse a number.
+40. ~~Find the sum of the first N natural numbers.~~
+41. ~~Find the factorial of a number.~~
+42. ~~Print the multiplication table of a number.~~
+43. ~~Reverse a number.~~
 44. Count digits in a number.
 45. Find the sum of digits.
 46. Check if a number is a palindrome.
